@@ -14,9 +14,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Awesmatic - Your Beauty and Personal Care Haven",
-  description: "At Awesmatic, we're more than just an online store. We are a passionate team of beauty enthusiasts who understand that self-care is an essential part of a well-lived life. Our mission is simple: to provide you with a curated selection of top-quality beauty and personal care products from your favorite trusted brands, all while offering incredible discounts.",
-  viewport: "width=device-width, initial-scale=1",
+  title: "Lainfante - Premium Clothing for Kids ",
+  description: "👗✨ Discover premium, trendy, and comfortable kids' clothing at our stores 💕",
 };
 
 export default function RootLayout({
@@ -30,19 +29,6 @@ export default function RootLayout({
 
         <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
         <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
-        <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png" />
-        <link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-72x72.png" />
-        <link rel="apple-touch-icon" sizes="76x76" href="/apple-touch-icon-76x76.png" />
-        <link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon-114x114.png" />
-        <link rel="apple-touch-icon" sizes="120x120" href="/apple-touch-icon-120x120.png" />
-        <link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon-144x144.png" />
-        <link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon-152x152.png" />
-        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon-180x180.png" />
-        <meta name="google-site-verification" content="VLgHPrp5esWltJ6NkRe1CyIQpOBzAnWX8YBbJWLcT5U" />
-        <meta name="google-site-verification" content="KWpxsYJQ_8JKKAm3KAWqsqMc-Qtqln4F9rs4NrePFF8" />
-        <meta name="google-site-verification" content="oonk-xSF8sKoFmCo6BFLtYuCTL3yirUEj2u9FPwsX8g" />
-        <meta name="google-site-verification" content="PJLqqmpbfpS37Jt12IwESL-4JIHbYb-21Uaki-1Nxp0" />
-        <meta name="google-site-verification" content="_8oZfRZP3s8lq9ltlOasC0jOcuhzNulJYPwCmI4v1ds" />
       </Head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased overflow-hidden`}

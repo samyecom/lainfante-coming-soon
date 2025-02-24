@@ -18,10 +18,10 @@ export default function Home() {
             />
             <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
               <Image
-                src="/logo.png"
+                src="/logo-tp.png"
                 alt="Awesmatic"
-                width={100}
-                height={80}
+                width={260}
+                height={120}
                 priority
                 className="m-auto rounded"
               />
